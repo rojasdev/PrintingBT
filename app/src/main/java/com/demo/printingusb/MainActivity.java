@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         printButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // This is where printing happens, use escape codes for proper control like line feed, cutter etc.
                 printData("Hello, GooPRT PT-210!\n\n\n");
                 printData("\n\n\n\n\n\n");
             }
